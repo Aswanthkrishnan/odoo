@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account_reports.partner_ledger_report" model="account.report">
+            <field name="column_ids">
+                <record id="partner_ledger_report_salesperson" model="account.report.column">
+                    <field name="name">Sales Person</field>
+                    <field name="expression_label">sales_person</field>
+                    <field name="figure_type">string</field>
+                    <field name="sequence">0</field>
+                </record>
+            </field>
+        </record>
+    </data>
+</odoo>
